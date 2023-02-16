@@ -1,0 +1,18 @@
+aside {
+    color: white;
+    background-color: #051e34;
+    min-width: 60px;
+    max-width: 100px;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+main {
+    height: calc(100vh - 80px);
+    
+}
