@@ -14,7 +14,6 @@
     border: transparent;
 }
 
-
 /* MAIN  */
 
 main {
@@ -53,4 +52,6 @@ header {
     background-color: #165bba;
     border-radius: 30px;
     padding: .5em;
+    font-size: .6em;
+    font-weight: 400;
 }
