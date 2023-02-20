@@ -55,3 +55,24 @@ header {
     font-size: .6em;
     font-weight: 400;
 }
+
+td.d-flex button {
+    width: 30px;
+    height: 30px;
+}
+
+th p {
+    margin-bottom: 0;
+}
+
+.text-bg-success {
+    background-color: green;
+}
+
+.text-bg-warning {
+    background-color: orange;
+}
+
+.text-bg-danger {
+    background-color: red;
+}
