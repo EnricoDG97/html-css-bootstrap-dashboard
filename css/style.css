@@ -81,3 +81,7 @@ th p {
 .text-bg-danger {
     background-color: red;
 }
+
+p.card-text {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
