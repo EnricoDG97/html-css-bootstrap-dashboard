@@ -104,7 +104,7 @@
                     </div>
                 </div>
            </header>
-           <section class="container-fluid d-flex flex-row gap-2">
+           <section id="main-section" class="container-fluid d-flex flex-row gap-2">
                 <div id="left-side-main" class="d-flex flex-column w-75 pt-3 gap-2">
                     <div id="next-class" class="container card">
                         <div class="title border-bottom fs-3 fw-semibold py-2">
@@ -306,7 +306,6 @@
                                     </td>
                                 </tr>
                               </tbody>
-                            
                         </table>
                     </div>
                     <div id="faq" class="container card">
@@ -315,7 +314,23 @@
                 </div>
                 <div id="right-side-main" class="d-flex flex-column w-25 pt-3 gap-2">
                     <div id="todo" class="container card">
-                        Todo
+                        <div class="title fs-3 fw-semibold py-2">
+                            Todo
+                        </div>
+                        <ul class="list-group pb-3">
+                            <li class="list-group-item">
+                              <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckboxStretched">
+                              <label class="form-check-label stretched-link" for="firstCheckboxStretched">Kickoff Nuove Classi</label>
+                            </li>
+                            <li class="list-group-item">
+                              <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretched">
+                              <label class="form-check-label stretched-link" for="secondCheckboxStretched">Lezione su Bootstrap 5 in classe #75</label>
+                            </li>
+                            <li class="list-group-item">
+                              <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckboxStretched">
+                              <label class="form-check-label stretched-link" for="thirdCheckboxStretched">Controllare username github studenti</label>
+                            </li>
+                          </ul>
                     </div>
                     <div id="chart" class="container card">
                         Chart
@@ -326,7 +341,6 @@
 
        
    </main>
-
-
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
